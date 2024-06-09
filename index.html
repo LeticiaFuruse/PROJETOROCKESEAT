@@ -1,0 +1,111 @@
+<!-- definindo um documento-->
+<!DOCTYPE html>
+<html lang="pt-br" data-lt-installed="true" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--ajustar config, ficam escondidas-->
+    <meta charset="UTF-8" />
+    <!--conjunto de caractere-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--definir compatibilidade-->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--definindo config -->
+    
+    <title>DevLinks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!--parte visivel-->
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/avatar2.png" alt=" foto de cachorro " />
+        <p>@furuse_leticia</p>
+      </div>
+
+        <!-- link puxando o Jscript -->
+      <link rel="script" href="script.js" />
+      <div id="switch" onclick="toggleMode()">
+        <!--clicar no botão-->
+        <button></button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdG5Z_-iduURxqYQBhVg21MJATevgRDcEleXZ2Nig0WFKDo0A/viewform?embedded=true"
+            target="_blank">
+            Inscreva-se
+          </a>
+        </li>
+
+        <li>
+          <!-- criar um index com meus horarios disponiveis para contato, e os produtos que eu forneço -->
+          <!-- preciso alterar algumas funções do botão  -->
+          <a href="#">Serviços</a>
+        </li>
+
+        <li>
+          <a href="https://github.com/LeticiaFuruse" target="_blank"
+            >Ver meu portfólio
+          </a>
+        </li>
+
+        <li>
+          <a href="https://rocketseat.com.br/explorer" target="_blank">
+            Conheça o Explorer
+          </a>
+        </li>
+      </ul>
+
+      <!--links das midias sociais -->
+      <div id="social-links">
+        <a href="https://github.com/LeticiaFuruse" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a href="https://instagram.com/furuse_leticia" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a
+          href="https://www.youtube.com/@leticiafuruse7658/playlists"
+          target="_blank"
+        >
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/leticia-furuse-a082b1274/"
+          target="_blank"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+
+      <footer>
+        Feito com carinho por
+        <a href="https://github.com/LeticiaFuruse"> Letícia </a>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
