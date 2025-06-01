@@ -43,4 +43,6 @@ Esse projeto está sob a licença MIT.
 
 ---
 ![image](https://github.com/user-attachments/assets/0b715ad8-2a96-46d8-b042-b8262e410a75)
+![image](https://github.com/user-attachments/assets/ce80ca6d-6da0-4d85-a367-2eb19da90938)
+
 
